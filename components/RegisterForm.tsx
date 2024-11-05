@@ -10,9 +10,11 @@ import {Pokemon} from "@/api/types/Pokemon";
 import { Toaster, toaster } from "@/components/ui/toaster"
 
 export const RegisterForm = () => {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [name, setName] = useState<string>("");
     const [starter, setStarter] = useState<Pokemon  | undefined> (undefined);
 
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [isNameInputValid, setIsNameInputValid] = useState<boolean>(true);
     const [isSelectValid, setIsSelectValid] = useState<boolean>(true);
 
